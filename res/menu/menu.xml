@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  	<item android:id="@+id/sizemenu"  android:title="size">
+	  	<group android:id="@+id/sizegroup" android:checkableBehavior="single">
+		    <item android:id="@+id/small" android:title="small"></item>
+		    <item android:id="@+id/medium" android:title="medium"></item>
+		    <item android:id="@+id/large" android:title="large"></item>
+	    </group>
+    </item>
+
+	<!--
+	<item android:id="@+id/speedmenu" android:title="speed">
+		<group  android:id="@+id/speedgroup" android:checkableBehavior="single">
+		    <item android:id="@+id/slow" android:title="slow"></item>
+		    <item android:id="@+id/fast" android:title="fast"></item>
+		</group>
+    </item>
+     -->
+
+</menu>
